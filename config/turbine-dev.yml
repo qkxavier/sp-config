@@ -17,3 +17,10 @@ eureka:
 turbine:
   app-config: order-service, zuul
   cluster-name-expression: new String("default")
+spring:
+  ......
+  rabbitmq:
+    host: 192.168.127.44
+    port: 5672
+    username: admin
+    password: admin  
