@@ -39,3 +39,10 @@ management:
       exposure:
         include: hystrix.stream
 
+spring:
+  ......
+  rabbitmq:
+    host: 192.168.127.44
+    port: 5672
+    username: admin
+    password: admin
